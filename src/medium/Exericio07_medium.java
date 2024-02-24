@@ -9,7 +9,6 @@ public class Exericio07_medium {
         //Exercicio08
         for (int i = 0; i <= vetorAno.length; i++) {
             System.out.println(vetorAno[i]);
-            System.out.println(vetorAno[i]);
 
         }
     }
