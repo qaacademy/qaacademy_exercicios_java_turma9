@@ -27,9 +27,12 @@ public class ExecucaoMedium {
 //        Exercicio05_vetor_medium exercicio05_medium = new Exercicio05_vetor_medium();
 //        System.out.println("O menor numero do vetor é: "+exercicio05_medium.retornaOmenorNumero(vetorNumeros));
 
-        int numeroFatorialDigitado = 10;
-        Exercicio06_repeticao_medium exercicio06Medium = new Exercicio06_repeticao_medium();
-        System.out.println("O Fatorial do numero digitado é: " +exercicio06Medium.calculaFatorial(numeroFatorialDigitado) );
+//        int numeroFatorialDigitado = 10;
+//        Exercicio06_repeticao_medium exercicio06Medium = new Exercicio06_repeticao_medium();
+//        System.out.println("O Fatorial do numero digitado é: " +exercicio06Medium.calculaFatorial(numeroFatorialDigitado) );
+
+        Exericio07_08_medium exericio0708Medium = new Exericio07_08_medium();
+        exericio0708Medium.exibirMesesDoAno();
 
     }
 }
