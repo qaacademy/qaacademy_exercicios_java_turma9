@@ -7,7 +7,7 @@ public class Exericio07_08_medium {
         String[] vetorAno = new String[]{"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
 
         //Exercicio08
-        for (int i = 0; i < vetorAno.length - 1; i++) {
+        for (int i = 0; i < vetorAno.length; i++) {
             System.out.println(vetorAno[i]);
         }
     }
