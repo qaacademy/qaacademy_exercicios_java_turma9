@@ -17,7 +17,10 @@ public class ExecucaoMedium {
 //        System.out.println("O Valor total com juros foi de R$ " + valorTotal);
 //        System.out.println("O Valor de juros foi de R$ " + exercicio02Medium.calcularValorDosJuros(valorTotal, valorInvestimento));
 
-        Exercicio03_medium exercicio03Medium = new Exercicio03_medium();
-        exercicio03Medium.somaAteMil();
+//        Exercicio03_medium exercicio03Medium = new Exercicio03_medium();
+//        exercicio03Medium.somaAteMil();
+
+        Exercicio04_medium exercicio04Medium = new Exercicio04_medium();
+        exercicio04Medium.multiplicaAteMilIteracoes();
     }
 }

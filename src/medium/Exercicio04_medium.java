@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio04_medium {
-    public static void main(String[] args) {
+    public void multiplicaAteMilIteracoes() {
 
         int multiplicacao = 1;
 
