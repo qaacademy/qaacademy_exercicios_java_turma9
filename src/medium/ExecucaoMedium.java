@@ -34,9 +34,15 @@ public class ExecucaoMedium {
 //        Exericio07_08_medium exericio0708Medium = new Exericio07_08_medium();
 //        exericio0708Medium.exibirMesesDoAno();
 
-        String[] nomeAlunos = {"Flavio", "Adriana", "Valeria", "Jessé", "Adnys"};
-        Exercicio09_medium exercicio09Medium = new Exercicio09_medium();
-        int[] numeroAlunos = exercicio09Medium.atribuirNumeracaoAlunos(nomeAlunos);
-        exercicio09Medium.exibirNomeENumeracao(nomeAlunos, numeroAlunos);
+//        String[] nomeAlunos = {"Flavio", "Adriana", "Valeria", "Jessé", "Adnys"};
+//        Exercicio09_medium exercicio09Medium = new Exercicio09_medium();
+//        int[] numeroAlunos = exercicio09Medium.atribuirNumeracaoAlunos(nomeAlunos);
+//        exercicio09Medium.exibirNomeENumeracao(nomeAlunos, numeroAlunos);
+
+        int elemento = 10;
+        Exercicio10_medium exercicio10Medium = new Exercicio10_medium();
+        int[] vetorFibonacci = exercicio10Medium.calcularFibonacci(elemento);
+        exercicio10Medium.exibirVetor(vetorFibonacci);
+
     }
 }
