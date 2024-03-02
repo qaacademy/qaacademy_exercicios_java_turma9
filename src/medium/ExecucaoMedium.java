@@ -23,8 +23,13 @@ public class ExecucaoMedium {
 //        Exercicio04_medium exercicio04Medium = new Exercicio04_medium();
 //        exercicio04Medium.multiplicaAteMilIteracoes();
 
-        int [] vetorNumeros = {2,3,5,8,5};
-        Exercicio05_vetor_medium exercicio05_medium = new Exercicio05_vetor_medium();
-        System.out.println("O menor numero do vetor é: "+exercicio05_medium.retornaOmenorNumero(vetorNumeros));
+//        int [] vetorNumeros = {2,3,5,8,5};
+//        Exercicio05_vetor_medium exercicio05_medium = new Exercicio05_vetor_medium();
+//        System.out.println("O menor numero do vetor é: "+exercicio05_medium.retornaOmenorNumero(vetorNumeros));
+
+        int numeroFatorialDigitado = 10;
+        Exercicio06_repeticao_medium exercicio06Medium = new Exercicio06_repeticao_medium();
+        System.out.println("O Fatorial do numero digitado é: " +exercicio06Medium.calculaFatorial(numeroFatorialDigitado) );
+
     }
 }
