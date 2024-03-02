@@ -1,7 +1,5 @@
 package medium;
 
-import javax.swing.*;
-
 public class ExecucaoMedium {
     public static void main(String[] args) {
 //
