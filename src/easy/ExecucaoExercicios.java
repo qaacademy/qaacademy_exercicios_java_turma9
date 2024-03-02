@@ -33,9 +33,16 @@ public class ExecucaoExercicios {
 //        System.out.println(exercicio06Easy.verificarAprovacaoAluno(primeiraNota, segundaNota));
 
 
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digitar Salario"));
-        Exercicio07_easy exercicio07Easy = new Exercicio07_easy();
-        System.out.println("O Inss a ser pago será de: R$" + exercicio07Easy.calcularInns(salario));
+//        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digitar Salario"));
+//        Exercicio07_easy exercicio07Easy = new Exercicio07_easy();
+//        System.out.println("O Inss a ser pago será de: R$" + exercicio07Easy.calcularInns(salario));
+
+        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salario bruto"));
+        Exercicio08_easy exercicio08Easy = new Exercicio08_easy();
+        Double impostoRenda = exercicio08Easy.calcularIR(salario);
+        System.out.println("O Salario bruto será de: " + salario);
+        System.out.println("O Imposto de renda devido será de: " + impostoRenda);
+        System.out.println("O Salario liquido será de: " + exercicio08Easy.calcularSalarioLiquido(salario,impostoRenda));
 
     }
 }
