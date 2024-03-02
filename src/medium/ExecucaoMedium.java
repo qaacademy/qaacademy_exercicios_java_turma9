@@ -20,7 +20,11 @@ public class ExecucaoMedium {
 //        Exercicio03_medium exercicio03Medium = new Exercicio03_medium();
 //        exercicio03Medium.somaAteMil();
 
-        Exercicio04_medium exercicio04Medium = new Exercicio04_medium();
-        exercicio04Medium.multiplicaAteMilIteracoes();
+//        Exercicio04_medium exercicio04Medium = new Exercicio04_medium();
+//        exercicio04Medium.multiplicaAteMilIteracoes();
+
+        int [] vetorNumeros = {2,3,5,8,5};
+        Exercicio05_vetor_medium exercicio05_medium = new Exercicio05_vetor_medium();
+        System.out.println("O menor numero do vetor é: "+exercicio05_medium.retornaOmenorNumero(vetorNumeros));
     }
 }
