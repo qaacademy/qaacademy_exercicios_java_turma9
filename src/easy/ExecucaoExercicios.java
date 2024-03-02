@@ -27,10 +27,15 @@ public class ExecucaoExercicios {
 //        System.out.println("A média dos numeros digitados é:" + exercicio05Easy.calcularMedia(primeiroValor, segundoValor, terceiroValor));  // Exibição media
 
 
-        double primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Digite a primeira nota"));
-        double segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Digite a segunda nota"));
-        Exercicio06_easy exercicio06Easy = new Exercicio06_easy();
-        System.out.println(exercicio06Easy.verificarAprovacaoAluno(primeiraNota, segundaNota));
+//        double primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Digite a primeira nota"));
+//        double segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Digite a segunda nota"));
+//        Exercicio06_easy exercicio06Easy = new Exercicio06_easy();
+//        System.out.println(exercicio06Easy.verificarAprovacaoAluno(primeiraNota, segundaNota));
+
+
+        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digitar Salario"));
+        Exercicio07_easy exercicio07Easy = new Exercicio07_easy();
+        System.out.println("O Inss a ser pago será de: R$" + exercicio07Easy.calcularInns(salario));
 
     }
 }
